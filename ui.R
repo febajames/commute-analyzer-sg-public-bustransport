@@ -1,4 +1,4 @@
-### COMMUTE ANALYZER ####
+### COMMUTE ANALYZER #####
 
 # Load packages via explicit library calls for shinyapps.io
 # install.packages('shiny')
