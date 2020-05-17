@@ -1,39 +1,14 @@
 ### COMMUTE ANALYZER #####
+# load the required packages
+packages = c('shiny', 'shinydashboard', 'tidyverse', 'reshape2', 'sf', 'tmap', 'leaflet', 'RColorBrewer', 'igraph', 'ggraph','heatmaply','plotly', 'ggrepel', 'shinyjs', 'shinycssloaders')
+for (p in packages){
+  if(!require(p, character.only = T)){
+    install.packages(p)
+  }
+  library(p,character.only = T)
+}
 
-# Load packages via explicit library calls for shinyapps.io
-# install.packages('shiny')
-# install.packages('shinydashboard')
-# install.packages('tidyverse')
-# install.packages('reshape2')
-# install.packages('sf')
-# install.packages('tmap')
-# install.packages('leaflet')
-# install.packages('RColorBrewer')
-# install.packages('igraph')
-# install.packages('ggraph')
-# install.packages('heatmaply')
-# install.packages('plotly')
-# install.packages('shinyjs')
-# install.packages('shinycssloaders')
-# install.packages("dplyr")
-
-library(shinydashboard)
-library(magrittr)
-library(dplyr)
-library(leaflet)
-library(shinycssloaders)
-library(shiny)
-library(heatmaply)
-library(plotly)
-library(ggraph)
-library(igraph)
-library(RColorBrewer)
-library(tmap)
-library(sf)
-library(reshape2)
-library(tidyverse)
-library(ggplot2)
-
+# spinner while page loads
 options(spinner.color.background="#F5F5F5")
 
 # ui.R
