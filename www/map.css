@@ -1,0 +1,14 @@
+.leaflet-top {
+bottom: 0;
+}
+
+.leaflet-top .leaflet-control-zoom {
+top:60%;
+transform: translateY(-60%);
+}
+
+.leaflet-top .leaflet-control-layers{
+top:60%;
+transform: translateY(-60%);
+}
+
