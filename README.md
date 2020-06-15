@@ -1,6 +1,6 @@
 # commute-analyzer-sg-public-bustransport
 Data Source: Land Transport Authority (LTA)<br/>
-Geospatial visual analysis of Singapore bus commuter flows across planning areas and subzones using various visualization techniques and Intramax modelling.
+Geospatial visual analysis of Singapore bus commuter flows across planning areas and subzones using various visualizations such as chloropleth, adjacency matrix, dendrograms and geospatial cluster visualization of Intramax modeling results.
 
 **server.R** - complete application code developed on RShiny.
 
